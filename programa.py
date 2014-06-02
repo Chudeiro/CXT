@@ -30,6 +30,7 @@ def main():
 	escribe('Y la suma de ambos es '+str(sumados))
 	escribe('Y la resta del primero menos el segundo es '+str(restados))
 	escribe('La multiplicacion  de ambos es '+str(multi))
+	escribe('La diferencia entre la sema y la resta es '+str(resta(restados,sumados)))
 	escribe('Hecho por S.Luaces ')
 	escribe('La fecha de la creacion es el 30 de mayo de 2014')
 
