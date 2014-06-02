@@ -30,6 +30,7 @@ def main():
 	escribe('Y la suma de ambos es '+str(sumados))
 	escribe('Y la resta del primero menos el segundo es '+str(restados))
 	escribe('La multiplicacion  de ambos es '+str(multi))
+	escribe('Hecho por S.Luaces ')
 
 if (len(sys.argv)<2):
 	print "Error: falta argumento"
