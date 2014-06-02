@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # encoding: utf-8
+# Programa que lee dos numeros introducidos, los suma, los resta y los multiplica
 import sys
 
 def escribe(s):
@@ -34,7 +35,9 @@ def main():
 	escribe('Hecho por S.Luaces ')
 	escribe('La fecha de la creacion es el 30 de mayo de 2014')
 	print "Y fue un trabajo muy duro"
-	
+	escribe('La nueva modificacion se hizo el 2 de junio de 2014')
+	print "Nos despedidmos, Adios!"
+
 if (len(sys.argv)<2):
 	print "Error: falta argumento"
 	sys.exit(-1)
