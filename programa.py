@@ -33,7 +33,8 @@ def main():
 	escribe('La diferencia entre la sema y la resta es '+str(resta(restados,sumados)))
 	escribe('Hecho por S.Luaces ')
 	escribe('La fecha de la creacion es el 30 de mayo de 2014')
-
+	print "Y fue un trabajo muy duro"
+	
 if (len(sys.argv)<2):
 	print "Error: falta argumento"
 	sys.exit(-1)
